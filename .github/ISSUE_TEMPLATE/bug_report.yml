@@ -1,0 +1,60 @@
+name: Bug report
+description: Something is wrong or missing in PanelBar
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Add a WHM server at https://your-host:2087
+        2. Open the popover and click the Accounts tab
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: PanelBar version
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Connection kind
+      options:
+        - cPanel account
+        - WHM server
+        - Both
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: How do you connect?
+      options:
+        - Remote over https (default)
+        - Remote over http with "Allow insecure HTTP"
+        - Through an SSH tunnel
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and chip
+      placeholder: "macOS 15.2, Apple M1 Pro"
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or output
+      description: Remove any API token, hostnames and account names you do not want public.

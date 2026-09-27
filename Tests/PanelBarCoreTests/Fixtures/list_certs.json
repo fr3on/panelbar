@@ -1,0 +1,24 @@
+{
+  "messages": null,
+  "errors": null,
+  "status": 1,
+  "data": [
+    {
+      "is_self_signed": "1",
+      "validation_type": "dv",
+      "domain_is_configured": 1,
+      "issuer.organizationName": "Example",
+      "subject.commonName": "example.com",
+      "not_before": "1365633490",
+      "not_after": "1397169490",
+      "created": "1365633490",
+      "domains": ["example.com"],
+      "issuer.commonName": "example.com",
+      "friendly_name": "TestCert",
+      "id": "example_com_c69ce_37ff5_1397169490_169c717cb2c260281df792788accf041"
+    }
+  ],
+  "metadata": {
+    "transformed": 1
+  }
+}

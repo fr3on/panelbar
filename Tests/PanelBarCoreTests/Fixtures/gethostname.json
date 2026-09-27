@@ -1,0 +1,4 @@
+{
+  "data": { "hostname": "srv1.host.example.com" },
+  "metadata": { "command": "gethostname", "reason": "OK", "result": 1, "version": 1 }
+}

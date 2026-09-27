@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest an idea for PanelBar
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+  - type: markdown
+    attributes:
+      value: PanelBar aims to stay small, read-only and private. Ideas that change account or server state (suspend, terminate, restart services, change DNS), add analytics or add third-party dependencies are unlikely to be accepted.

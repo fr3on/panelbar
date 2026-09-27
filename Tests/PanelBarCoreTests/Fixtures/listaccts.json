@@ -1,0 +1,30 @@
+{
+  "data": {
+    "acct": [
+      {
+        "user": "example",
+        "domain": "example.com",
+        "disklimit": "500M",
+        "diskused": "65M",
+        "suspended": 0,
+        "email": "support@example.com",
+        "plan": "plan-name"
+      },
+      {
+        "user": "oldproject",
+        "domain": "old-project.net",
+        "disklimit": "unlimited",
+        "diskused": "1.2G",
+        "suspended": 1,
+        "email": "owner@old-project.net",
+        "plan": "starter"
+      }
+    ]
+  },
+  "metadata": {
+    "command": "listaccts",
+    "reason": "OK",
+    "result": 1,
+    "version": 1
+  }
+}

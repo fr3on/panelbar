@@ -1,0 +1,4 @@
+{
+  "data": { "fifteen": "0.93", "five": "0.94", "one": "0.71" },
+  "metadata": { "command": "systemloadavg", "reason": "OK", "result": 1, "version": 1 }
+}

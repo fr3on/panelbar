@@ -1,0 +1,17 @@
+{
+  "messages": null,
+  "errors": null,
+  "status": 1,
+  "data": {
+    "under_quota_overall": "1",
+    "megabytes_remain": "0.00",
+    "inodes_remain": "0",
+    "megabyte_limit": "40000.00",
+    "inode_limit": "0",
+    "inodes_used": 1035,
+    "megabytes_used": "5.46",
+    "under_inode_limit": "1",
+    "under_megabyte_limit": "1"
+  },
+  "metadata": {}
+}

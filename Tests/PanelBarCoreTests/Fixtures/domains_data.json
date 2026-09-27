@@ -1,0 +1,28 @@
+{
+  "messages": null,
+  "errors": null,
+  "status": 1,
+  "metadata": {},
+  "data": {
+    "addon_domains": [
+      {
+        "domain": "seconddomain.com",
+        "documentroot": "/home/user/public_html/seconddomain.com",
+        "type": "addon_domain"
+      }
+    ],
+    "parked_domains": ["parkeddomain.com"],
+    "sub_domains": [
+      {
+        "domain": "sub.example.com",
+        "documentroot": "/home/user/public_html/sub",
+        "type": "sub_domain"
+      }
+    ],
+    "main_domain": {
+      "domain": "example.com",
+      "documentroot": "/home/user/public_html",
+      "type": "main_domain"
+    }
+  }
+}

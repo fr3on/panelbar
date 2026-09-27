@@ -1,0 +1,20 @@
+{
+  "data": {
+    "accounts": [
+      { "blocks_limit": "10240000", "blocks_used": 952228, "inodes_limit": null, "inodes_used": 33737, "user": "acct01" },
+      { "blocks_limit": null, "blocks_used": 187936, "inodes_limit": null, "inodes_used": 3324, "user": "acct02" },
+      { "blocks_limit": null, "blocks_used": 36472273, "inodes_limit": null, "inodes_used": 452996, "user": "acct03" },
+      { "blocks_limit": null, "blocks_used": 89692, "inodes_limit": null, "inodes_used": 2315, "user": "acct04" },
+      { "blocks_limit": null, "blocks_used": 42997255, "inodes_limit": null, "inodes_used": 3011246, "user": "acct05" },
+      { "blocks_limit": null, "blocks_used": 513092, "inodes_limit": null, "inodes_used": 1957, "user": "acct06" },
+      { "blocks_limit": null, "blocks_used": 383332, "inodes_limit": null, "inodes_used": 33609, "user": "acct07" },
+      { "blocks_limit": null, "blocks_used": 49524177, "inodes_limit": null, "inodes_used": 1418251, "user": "acct08" },
+      { "blocks_limit": null, "blocks_used": 7804840, "inodes_limit": null, "inodes_used": 1700062, "user": "acct09" },
+      { "blocks_limit": null, "blocks_used": 89452, "inodes_limit": null, "inodes_used": 486, "user": "acct10" },
+      { "blocks_limit": null, "blocks_used": 998685, "inodes_limit": null, "inodes_used": 97848, "user": "acct11" },
+      { "blocks_limit": null, "blocks_used": 19800, "inodes_limit": null, "inodes_used": 639, "user": "acct12" },
+      { "blocks_limit": null, "blocks_used": 14884, "inodes_limit": null, "inodes_used": 736, "user": "acct13" }
+    ]
+  },
+  "metadata": { "command": "get_disk_usage", "reason": "OK", "result": 1, "version": 1 }
+}

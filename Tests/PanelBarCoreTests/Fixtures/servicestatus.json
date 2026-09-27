@@ -1,0 +1,43 @@
+{
+  "data": {
+    "service": [
+      { "display_name": "PHP-FPM service for Apache", "enabled": 1, "installed": 1, "monitored": 1, "name": "apache_php_fpm", "running": 1 },
+      { "display_name": "ClamAV Daemon", "enabled": 1, "installed": 1, "monitored": 1, "name": "clamd", "running": 1 },
+      { "display_name": "PHP-FPM service for cPanel Daemons", "enabled": 1, "installed": 1, "monitored": 1, "name": "cpanel_php_fpm", "running": 1 },
+      { "display_name": "cPanel Log and Bandwidth Processor", "enabled": 1, "installed": 1, "monitored": 1, "name": "cpanellogd", "running": 1 },
+      { "display_name": "cPanel DAV Daemon", "enabled": 1, "installed": 1, "monitored": 1, "name": "cpdavd", "running": 1 },
+      { "display_name": "cPanel Greylisting Daemon", "enabled": 0, "installed": 1, "monitored": 0, "name": "cpgreylistd" },
+      { "display_name": "cPHulk Daemon", "enabled": 1, "installed": 1, "monitored": 1, "name": "cphulkd", "running": 1 },
+      { "display_name": "cPanel Daemon", "enabled": 1, "installed": 1, "monitored": 1, "name": "cpsrvd", "running": 1 },
+      { "display_name": "Cron Daemon", "enabled": 1, "installed": 1, "monitored": 1, "name": "crond", "running": 1 },
+      { "display_name": "cxswatch", "enabled": 1, "installed": 1, "monitored": 1, "name": "cxswatch", "running": 0 },
+      { "display_name": "db_governor", "enabled": 1, "installed": 1, "monitored": 0, "name": "db_governor" },
+      { "display_name": "cPanel DNS (Domain Name System) Admin Cache", "enabled": 1, "installed": 1, "monitored": 1, "name": "dnsadmin", "running": 1 },
+      { "display_name": "Exim Mail Server", "enabled": 1, "installed": 1, "monitored": 1, "name": "exim", "running": 1 },
+      { "display_name": "Exim Mail Server (on another port)", "enabled": 0, "installed": 1, "monitored": 0, "name": "exim-altport", "settings": { "name": "exim-altportnum", "size": 30, "value": 26 } },
+      { "display_name": "FTP (File Transfer Protocol) Server", "enabled": 0, "installed": 0, "monitored": 0, "name": "ftpd" },
+      { "display_name": "Apache Web Server", "enabled": 1, "installed": 1, "monitored": 1, "name": "httpd", "running": 1 },
+      { "display_name": "IMAP (Internet Mail Access Protocol) Server", "enabled": 1, "installed": 1, "monitored": 1, "name": "imap", "running": 1 },
+      { "display_name": "imunify360", "enabled": 1, "installed": 1, "monitored": 0, "name": "imunify360" },
+      { "display_name": "IP (Internet Protocol) Aliases", "enabled": 1, "installed": 1, "monitored": 1, "name": "ipaliases", "running": 1 },
+      { "display_name": "jetbackup5d", "enabled": 1, "installed": 1, "monitored": 1, "name": "jetbackup5d", "running": 0 },
+      { "display_name": "jetmongod", "enabled": 1, "installed": 1, "monitored": 1, "name": "jetmongod", "running": 1 },
+      { "display_name": "LMTP (Local Mail Transport Protocol) Server", "enabled": 1, "installed": 1, "monitored": 1, "name": "lmtp", "running": 1 },
+      { "display_name": "Mailman", "enabled": 1, "installed": 1, "monitored": 1, "name": "mailman", "running": 0 },
+      { "display_name": "Database Server", "enabled": 1, "installed": 1, "monitored": 1, "name": "mysql", "running": 1 },
+      { "display_name": "DNS (Domain Name System) Server", "enabled": 1, "installed": 1, "monitored": 1, "name": "named", "running": 1 },
+      { "display_name": "NGINX Server", "enabled": 0, "installed": 0, "monitored": 0, "name": "nginx" },
+      { "display_name": "Name Service Cache Daemon", "enabled": 1, "installed": 1, "monitored": 1, "name": "nscd", "running": 1 },
+      { "display_name": "Passive OS (Operating System) Fingerprinting Daemon", "enabled": 1, "installed": 1, "monitored": 1, "name": "p0f", "running": 1 },
+      { "display_name": "POP3 (Post Office Protocol 3) Server", "enabled": 1, "installed": 1, "monitored": 1, "name": "pop", "running": 1 },
+      { "display_name": "PostgreSQL Server", "enabled": 0, "installed": 0, "monitored": 0, "name": "postgresql" },
+      { "display_name": "TaskQueue Processor", "enabled": 1, "installed": 1, "monitored": 1, "name": "queueprocd", "running": 1 },
+      { "display_name": "rsyslog System Logger Daemon", "enabled": 1, "installed": 1, "monitored": 1, "name": "rsyslogd", "running": 1 },
+      { "display_name": "Apache SpamAssassin", "enabled": 1, "installed": 1, "monitored": 1, "name": "spamd", "running": 1 },
+      { "display_name": "SSH (Secure Shell) Daemon", "enabled": 1, "installed": 1, "monitored": 1, "name": "sshd", "running": 1 },
+      { "display_name": "syslog System Logger Daemon", "enabled": 0, "installed": 0, "monitored": 0, "name": "syslogd" },
+      { "display_name": "TailWatch Daemon", "enabled": 1, "installed": 1, "monitored": 0, "name": "tailwatchd" }
+    ]
+  },
+  "metadata": { "command": "servicestatus", "reason": "OK", "result": 1, "version": 1 }
+}
